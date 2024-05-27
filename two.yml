@@ -1,0 +1,8 @@
+---
+ - name: Enter your name
+   hosts: MYLIFE
+   tasks:
+   - name: To display my name
+     debug:
+        msg: " My name is Shyam"
+...
